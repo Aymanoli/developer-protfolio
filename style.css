@@ -8,8 +8,9 @@ h1{
 .spider{
     color:orange
 }
-section{
+.flexible-container{
     display:flex;
+    margin-bottom:150px
 }
 .half{
     width:50%;
@@ -39,4 +40,40 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat:no-repeat;
     background-position: right;
+}
+.development{
+    box-shadow:10px 10px 15px gray;
+    width:40%;
+    margin:0 5%;
+    padding-left:20px;
+    padding-right:10px;
+}
+.development p{
+    text-align:justify;
+}
+.development h3{
+    color:orange;
+    font-size:20px
+}
+.development h2{
+    font-weight:700;
+    font-size:28px
+}
+.experiance{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left
+}
+.experiance h1{
+    text-align:center;
+}
+#dev{
+    border-left:7px solid;
+    border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 40px) 60;
+    border-image-slice:1;
+}
+#devl{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,aqua);
+    border-image-slice:1; 
 }
